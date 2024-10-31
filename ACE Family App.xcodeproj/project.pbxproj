@@ -12,13 +12,25 @@
 		FE150B182CD089270049CE51 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B172CD089270049CE51 /* CameraView.swift */; };
 		FE150B1A2CD090600049CE51 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B192CD090600049CE51 /* TrackableScrollView.swift */; };
 		FE150B1C2CD0ADFC0049CE51 /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B1B2CD0ADFC0049CE51 /* AnnouncementView.swift */; };
-		FE3839182CD0417100B9F39C /* MainUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3839172CD0417100B9F39C /* MainUserView.swift */; };
+		FE150B1E2CD13B3F0049CE51 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B1D2CD13B3F0049CE51 /* TopBarView.swift */; };
+		FE150B212CD17A970049CE51 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B202CD17A970049CE51 /* AuthView.swift */; };
+		FE150B252CD17E7C0049CE51 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B242CD17E7C0049CE51 /* StartView.swift */; };
+		FE150B282CD17EA40049CE51 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B272CD17EA40049CE51 /* RegisterView.swift */; };
+		FE150B2A2CD17EB20049CE51 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B292CD17EB20049CE51 /* VerificationView.swift */; };
+		FE150B2C2CD17EB90049CE51 /* JoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B2B2CD17EB90049CE51 /* JoinView.swift */; };
+		FE150B2E2CD17EC90049CE51 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B2D2CD17EC90049CE51 /* ContactView.swift */; };
+		FE150B302CD17EDC0049CE51 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B2F2CD17EDC0049CE51 /* LoginView.swift */; };
+		FE150B322CD17EEE0049CE51 /* ForgotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B312CD17EEE0049CE51 /* ForgotView.swift */; };
+		FE150B342CD181F00049CE51 /* AdminLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B332CD181F00049CE51 /* AdminLoginView.swift */; };
+		FE150B362CD183E70049CE51 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B352CD183E70049CE51 /* AppState.swift */; };
+		FE150B392CD184BD0049CE51 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE150B382CD184BD0049CE51 /* AdminView.swift */; };
+		FE3839182CD0417100B9F39C /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3839172CD0417100B9F39C /* UserView.swift */; };
 		FE38391B2CD0420900B9F39C /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE38391A2CD0420900B9F39C /* PostView.swift */; };
 		FE38391E2CD0423800B9F39C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FE38391D2CD0423800B9F39C /* Kingfisher */; };
 		FE3839222CD042F900B9F39C /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3839212CD042F900B9F39C /* UserModels.swift */; };
 		FE3839252CD0432B00B9F39C /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3839242CD0432B00B9F39C /* GlobalHelpers.swift */; };
 		FED4211A2CD0396700BB155A /* ACE_Family_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED421192CD0396700BB155A /* ACE_Family_AppApp.swift */; };
-		FED4211C2CD0396700BB155A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4211B2CD0396700BB155A /* ContentView.swift */; };
+		FED4211C2CD0396700BB155A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4211B2CD0396700BB155A /* RootView.swift */; };
 		FED4211E2CD0396900BB155A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED4211D2CD0396900BB155A /* Assets.xcassets */; };
 		FED421212CD0396900BB155A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED421202CD0396900BB155A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -29,13 +41,25 @@
 		FE150B172CD089270049CE51 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		FE150B192CD090600049CE51 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 		FE150B1B2CD0ADFC0049CE51 /* AnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementView.swift; sourceTree = "<group>"; };
-		FE3839172CD0417100B9F39C /* MainUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUserView.swift; sourceTree = "<group>"; };
+		FE150B1D2CD13B3F0049CE51 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		FE150B202CD17A970049CE51 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		FE150B242CD17E7C0049CE51 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		FE150B272CD17EA40049CE51 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FE150B292CD17EB20049CE51 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		FE150B2B2CD17EB90049CE51 /* JoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinView.swift; sourceTree = "<group>"; };
+		FE150B2D2CD17EC90049CE51 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		FE150B2F2CD17EDC0049CE51 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FE150B312CD17EEE0049CE51 /* ForgotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotView.swift; sourceTree = "<group>"; };
+		FE150B332CD181F00049CE51 /* AdminLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginView.swift; sourceTree = "<group>"; };
+		FE150B352CD183E70049CE51 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		FE150B382CD184BD0049CE51 /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
+		FE3839172CD0417100B9F39C /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		FE38391A2CD0420900B9F39C /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		FE3839212CD042F900B9F39C /* UserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
 		FE3839242CD0432B00B9F39C /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		FED421162CD0396700BB155A /* ACE Family App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACE Family App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED421192CD0396700BB155A /* ACE_Family_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACE_Family_AppApp.swift; sourceTree = "<group>"; };
-		FED4211B2CD0396700BB155A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FED4211B2CD0396700BB155A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		FED4211D2CD0396900BB155A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FED421202CD0396900BB155A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +76,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE150B262CD17E880049CE51 /* AuthSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				FE150B242CD17E7C0049CE51 /* StartView.swift */,
+				FE150B272CD17EA40049CE51 /* RegisterView.swift */,
+				FE150B292CD17EB20049CE51 /* VerificationView.swift */,
+				FE150B2B2CD17EB90049CE51 /* JoinView.swift */,
+				FE150B2D2CD17EC90049CE51 /* ContactView.swift */,
+				FE150B2F2CD17EDC0049CE51 /* LoginView.swift */,
+				FE150B312CD17EEE0049CE51 /* ForgotView.swift */,
+				FE150B332CD181F00049CE51 /* AdminLoginView.swift */,
+			);
+			path = AuthSubviews;
+			sourceTree = "<group>";
+		};
+		FE150B372CD184AD0049CE51 /* UserSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				FE150B132CD088990049CE51 /* AnnouncementsView.swift */,
+				FE150B152CD089080049CE51 /* FeedView.swift */,
+				FE150B172CD089270049CE51 /* CameraView.swift */,
+			);
+			path = UserSubviews;
+			sourceTree = "<group>";
+		};
 		FE3839132CD0410200B9F39C /* User */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,11 +119,11 @@
 		FE3839162CD0415200B9F39C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FE150B372CD184AD0049CE51 /* UserSubviews */,
+				FE150B262CD17E880049CE51 /* AuthSubviews */,
 				FE3839192CD041F500B9F39C /* Components */,
-				FE3839172CD0417100B9F39C /* MainUserView.swift */,
-				FE150B132CD088990049CE51 /* AnnouncementsView.swift */,
-				FE150B152CD089080049CE51 /* FeedView.swift */,
-				FE150B172CD089270049CE51 /* CameraView.swift */,
+				FE3839172CD0417100B9F39C /* UserView.swift */,
+				FE150B382CD184BD0049CE51 /* AdminView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,6 +134,7 @@
 				FE38391A2CD0420900B9F39C /* PostView.swift */,
 				FE150B192CD090600049CE51 /* TrackableScrollView.swift */,
 				FE150B1B2CD0ADFC0049CE51 /* AnnouncementView.swift */,
+				FE150B1D2CD13B3F0049CE51 /* TopBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -93,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				FE3839212CD042F900B9F39C /* UserModels.swift */,
+				FE150B352CD183E70049CE51 /* AppState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -129,7 +180,8 @@
 				FE3839152CD0414D00B9F39C /* Admin */,
 				FE3839132CD0410200B9F39C /* User */,
 				FED421192CD0396700BB155A /* ACE_Family_AppApp.swift */,
-				FED4211B2CD0396700BB155A /* ContentView.swift */,
+				FE150B202CD17A970049CE51 /* AuthView.swift */,
+				FED4211B2CD0396700BB155A /* RootView.swift */,
 				FED4211D2CD0396900BB155A /* Assets.xcassets */,
 				FED4211F2CD0396900BB155A /* Preview Content */,
 			);
@@ -223,14 +275,26 @@
 				FE150B162CD089080049CE51 /* FeedView.swift in Sources */,
 				FE150B1A2CD090600049CE51 /* TrackableScrollView.swift in Sources */,
 				FE3839252CD0432B00B9F39C /* GlobalHelpers.swift in Sources */,
-				FE3839182CD0417100B9F39C /* MainUserView.swift in Sources */,
+				FE150B322CD17EEE0049CE51 /* ForgotView.swift in Sources */,
+				FE150B2C2CD17EB90049CE51 /* JoinView.swift in Sources */,
+				FE150B212CD17A970049CE51 /* AuthView.swift in Sources */,
+				FE3839182CD0417100B9F39C /* UserView.swift in Sources */,
 				FE150B182CD089270049CE51 /* CameraView.swift in Sources */,
+				FE150B282CD17EA40049CE51 /* RegisterView.swift in Sources */,
 				FE3839222CD042F900B9F39C /* UserModels.swift in Sources */,
 				FE150B142CD088990049CE51 /* AnnouncementsView.swift in Sources */,
-				FED4211C2CD0396700BB155A /* ContentView.swift in Sources */,
+				FE150B1E2CD13B3F0049CE51 /* TopBarView.swift in Sources */,
+				FE150B342CD181F00049CE51 /* AdminLoginView.swift in Sources */,
+				FED4211C2CD0396700BB155A /* RootView.swift in Sources */,
 				FE150B1C2CD0ADFC0049CE51 /* AnnouncementView.swift in Sources */,
+				FE150B2E2CD17EC90049CE51 /* ContactView.swift in Sources */,
 				FED4211A2CD0396700BB155A /* ACE_Family_AppApp.swift in Sources */,
+				FE150B362CD183E70049CE51 /* AppState.swift in Sources */,
+				FE150B392CD184BD0049CE51 /* AdminView.swift in Sources */,
 				FE38391B2CD0420900B9F39C /* PostView.swift in Sources */,
+				FE150B302CD17EDC0049CE51 /* LoginView.swift in Sources */,
+				FE150B252CD17E7C0049CE51 /* StartView.swift in Sources */,
+				FE150B2A2CD17EB20049CE51 /* VerificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

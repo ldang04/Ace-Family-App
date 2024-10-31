@@ -17,24 +17,32 @@ struct PostView: View {
     var height = 400
     var widthFactor = 0.92
     
+    @State private var currentPhotoIndex = 0
+
     var body: some View {
         ZStack {
-            // post image
-            KFImage(post.photo)
-                .resizable()
-                .frame(width: UIScreen.main.bounds.width * widthFactor, height: CGFloat(height))
-                .scaledToFill()
-                .cornerRadius(10)
-                .scaledToFill()
+            // post array
+            ZStack {
+                VStack {
+                    KFImage(post.photos[currentPhotoIndex])
+                        .resizable()
+                        .frame(width: UIScreen.main.bounds.width * widthFactor, height: CGFloat(height))
+                        .scaledToFill()
+                        .cornerRadius(10)
+                    }
 
-            // gradient overlay
-                LinearGradient(
-                    gradient: Gradient(colors: [Color.black.opacity(0.8), Color.clear]),
-                    startPoint: .bottom,
-                    endPoint: .center
-                )
-                .frame(maxWidth: UIScreen.main.bounds.width * widthFactor, maxHeight: CGFloat(height))
-                .cornerRadius(10)
+                // gradient overlay
+                    LinearGradient(
+                        gradient: Gradient(colors: [Color.black.opacity(0.8), Color.clear]),
+                        startPoint: .bottom,
+                        endPoint: .center
+                    )
+                    .frame(maxWidth: UIScreen.main.bounds.width * widthFactor, maxHeight: CGFloat(height))
+                    .cornerRadius(10)
+            }
+                .onTapGesture {
+                        currentPhotoIndex = (currentPhotoIndex + 1) % post.photos.count
+                }
             
             // post info
             VStack { // @todo fetch actual post info

@@ -18,14 +18,29 @@ import SwiftUI
 //    var approved: Bool
 //}
 
-var post1 = Post(id: "1234", created_at: Date(), description: "Fam picnic in Central Park 🌸🧺", photo: URL(string: "https://plus.unsplash.com/premium_photo-1680706777258-553b9357eb04?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!, family: "Ho Chi Honeys", activities: ["Picnic", "All family members", "Downtown"], approved: false)
-
+var post1 = Post(
+    id: "1234",
+    created_at: Date(),
+    description: "Fam picnic in Central Park 🌸🧺",
+    photos: [
+        URL(string: "https://plus.unsplash.com/premium_photo-1680706777258-553b9357eb04?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+        URL(string: "https://images.unsplash.com/photo-1605654575707-167d2c774594?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+        URL(string: "https://plus.unsplash.com/premium_photo-1664368276723-f4c5e465db80?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!
+    ],
+    family: "Ho Chi Honeys",
+    activities: ["Picnic", "All family members", "Downtown"],
+    approved: false
+)
 
 var post2 = Post(
     id: "5678",
     created_at: Date(),
     description: "Leadership training ????",
-    photo: URL(string: "https://plus.unsplash.com/premium_photo-1664461348296-2dc2207b1c82?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+    photos: [
+        URL(string: "https://plus.unsplash.com/premium_photo-1664461348296-2dc2207b1c82?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+        URL(string: "https://images.unsplash.com/photo-1605654575707-167d2c774594?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+        URL(string: "https://plus.unsplash.com/premium_photo-1664368276723-f4c5e465db80?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!
+    ],
     family: "Saigon Sillies",
     activities: ["Beach Walk", "Sunset Viewing", "Seaside Dining"],
     approved: true
@@ -35,7 +50,11 @@ var post3 = Post(
     id: "9101",
     created_at: Date().addingTimeInterval(-86400), // 1 day ago
     description: "Family painting night 🎨",
-    photo: URL(string: "https://images.unsplash.com/photo-1522167428-d603a1d62f26?q=80&w=2896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+    photos: [
+        URL(string: "https://images.unsplash.com/photo-1522167428-d603a1d62f26?q=80&w=2896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+        URL(string: "https://images.unsplash.com/photo-1605654575707-167d2c774594?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+        URL(string: "https://plus.unsplash.com/premium_photo-1664368276723-f4c5e465db80?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!
+    ],
     family: "Saigon Sillies",
     activities: ["Hiking", "Photography", "Camping"],
     approved: false
@@ -45,7 +64,11 @@ var post4 = Post(
     id: "1121",
     created_at: Date().addingTimeInterval(-604800), // 1 week ago
     description: "Family gathering at the lake house 🛶🏡",
-    photo: URL(string: "https://plus.unsplash.com/premium_photo-1672281064815-511a9b646216?q=80&w=2897&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+    photos: [
+        URL(string: "https://plus.unsplash.com/premium_photo-1672281064815-511a9b646216?q=80&w=2897&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+        URL(string: "https://images.unsplash.com/photo-1605654575707-167d2c774594?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!,
+        URL(string: "https://plus.unsplash.com/premium_photo-1664368276723-f4c5e465db80?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")!
+    ],
     family: "2SE",
     activities: ["Fishing", "Boating", "Campfire"],
     approved: true

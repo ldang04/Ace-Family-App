@@ -11,7 +11,7 @@ struct Post {
     var id: String
     var created_at: Date
     var description: String
-    var photo: URL
+    var photos: [URL]
     var family: String // type: id
     var activities: [String]
     var approved: Bool

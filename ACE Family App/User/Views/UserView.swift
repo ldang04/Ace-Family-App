@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 
-struct MainUserView: View {
+struct UserView: View {
     @State private var selectedTab: Tab = .feed
 
     init() {
@@ -27,38 +27,9 @@ struct MainUserView: View {
             ZStack {
                 Color.black
                     .edgesIgnoringSafeArea(.all)
-                
+                    
                 VStack {
-                    HStack { // top bar
-                        Image("VSALogoGold")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 60, height: 60)
-
-                        Spacer()
-                        
-                        
-                        HStack {
-                            Button {
-                                // @todo go to own profile
-                            } label: {
-                                Image(systemName: "gearshape.fill")
-                                    .foregroundStyle(.white)
-                                    .font(.system(size: 25))
-                            }
-                            
-                            Button {
-                                // @todo go to own profile
-                            } label: {
-                                Image(systemName: "person.fill")
-                                    .foregroundStyle(.white)
-                                    .font(.system(size: 25))
-                            }
-                        }
-                        
-                    }
-                    .padding(.leading, 10)
-                    .padding(10)
+                    TopBarView()
                     
                     TabView(selection: $selectedTab) {
                         AnnouncementsView()
@@ -79,11 +50,11 @@ struct MainUserView: View {
                             }
                             .tag(Tab.camera)
                     }
-                    .accentColor(Color("VSARed"))
+                    .accentColor(Color.white)
+                    }
                 }
             }
         }
-    }
 
 enum Tab {
     case announcements
@@ -94,5 +65,5 @@ enum Tab {
 
 
 #Preview {
-    MainUserView()
+    UserView()
 }

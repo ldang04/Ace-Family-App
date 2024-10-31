@@ -11,7 +11,7 @@ import SwiftUI
 struct ACE_Family_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            MainUserView() // @todo change initial build point
+            RootView() // controller
         }
     }
 }

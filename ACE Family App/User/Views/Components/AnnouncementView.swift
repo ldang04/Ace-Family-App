@@ -15,28 +15,23 @@ struct AnnouncementView: View {
         VStack {
             Text(announcement.title)
                 .font(.system(size: 23))
-                .foregroundColor(.white)
                 .frame(maxWidth: UIScreen.main.bounds.width * widthFactor, alignment: .leading)
                 .bold()
                 .padding(.bottom, 5)
-          
             
             Text(announcement.description)
                 .font(.body)
-                .foregroundColor(.white)
                 .frame(maxWidth: UIScreen.main.bounds.width * widthFactor, alignment: .leading)
                 .padding(.bottom, 5)
-
             
             Text("Posted on \(formattedDate)")
                 .frame(maxWidth: UIScreen.main.bounds.width * widthFactor, alignment: .leading)
-                .foregroundColor(.white)
                 .italic()
         }
         .padding()
-        .overlay(
-            RoundedRectangle(cornerRadius: 5)
-                .stroke(Color.white, lineWidth: 2) // Use stroke to set the border color and width
+        .background(
+            RoundedRectangle(cornerRadius: 20)
+                .fill(Color.white) // Background color for the rounded rectangle
         )
         .frame(maxWidth: UIScreen.main.bounds.width * widthFactor, alignment: .leading)
     }
